@@ -14,3 +14,5 @@ NPC nincs a helyén/eltérő phaseben van.
 
 Phase megoldása:
 UPDATE  `world`.`creature` SET  `phaseMask` =  '1' WHERE  `creature`.`id` =7784;
+
+
