@@ -1,0 +1,269 @@
+Minden questnél, a 44171-es ID-jű Training Dummy-t (lvl 3) használtam.
+
+Class Quest: 'Moonfire' Druid (Nem tudtam melyik ID-t használjátok a Moonfire-re, Cataclysmben én a 774-et használtam, de wowheaden is a Moonfire már a 8921-es IDn van, szóval ehhez igazítva írtam az updatet.)
+Tauren:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '8921' WHERE  `quest_template`.`entry` =27067;
+
+Night Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '8921' WHERE  `quest_template`.`entry` =26948;
+
+Worgen:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '8921' WHERE  `quest_template`.`entry` =14283;
+
+
+Class Quest: 'Steady Shot' Hunter
+Night Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =26947;
+
+Dwarf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =24530;
+
+Orc:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =25139;
+
+Goblin:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =14007;
+
+Draenei:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =26963;
+
+Human:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =26917;
+
+Tauren:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =27021;
+
+Undead:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =24964;
+
+Blood Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '56641' WHERE  `quest_template`.`entry` =10070;
+
+
+Class Quest: 'Frost Nova' Mage
+Night Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '122' WHERE  `quest_template`.`entry` =26940;
+
+Worgen:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '122' WHERE  `quest_template`.`entry` =14281;
+
+Blood Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '122' WHERE  `quest_template`.`entry` =10068;
+
+Draenei:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '122' WHERE  `quest_template`.`entry` =26968;
+
+Goblin:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '122' WHERE  `quest_template`.`entry` =14008;
+
+Orc:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '122' WHERE  `quest_template`.`entry` =25149;
+
+
+Class Quest: Paladin (Átírva Judgement gyakorlásra)
+Draenei, Human, Dwarf, Blood Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '20271' WHERE  `quest_template`.`entry` =10069;
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '20271' WHERE  `quest_template`.`entry` =24528;
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '20271' WHERE  `quest_template`.`entry` =26918;
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '20271' WHERE  `quest_template`.`entry` =27023;
+
+
+Class Quest: 'Learning the Word' Priest
+Tauren,Troll:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '589' WHERE  `quest_template`.`entry` =27066;
+
+Worgen:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '589' WHERE  `quest_template`.`entry` =14279;
+
+Blood Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '589' WHERE  `quest_template`.`entry` =10072;
+
+Human, Gnome, Dwarf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '589' WHERE  `quest_template`.`entry` =26919;
+
+Night Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '589' WHERE  `quest_template`.`entry` =26949;
+
+Draenei:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '589' WHERE  `quest_template`.`entry` =26970;
+
+Goblin:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '589' WHERE  `quest_template`.`entry` =14009;
+
+
+Class Quest: Rogue
+Goblin:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '2098' WHERE  `quest_template`.`entry` =14010;
+
+Orc:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '2098' WHERE  `quest_template`.`entry` =25141;
+
+Dwarf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '2098' WHERE  `quest_template`.`entry` =24532;
+
+Night Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '2098' WHERE  `quest_template`.`entry` =26946;
+
+Undead:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '2098' WHERE  `quest_template`.`entry` =24967;
+
+Worgen:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '2098' WHERE  `quest_template`.`entry` =26915;
+
+Blood Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '2098' WHERE  `quest_template`.`entry` =10071;
+
+
+Class Quest: 'Primal Strike' Shaman
+Goblin:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '73899' WHERE  `quest_template`.`entry` =14011;
+
+Tauren:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '73899' WHERE  `quest_template`.`entry` =27027;
+
+Draenei:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '73899' WHERE  `quest_template`.`entry` =26969;
+
+Orc:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '73899' WHERE  `quest_template`.`entry` =25143;
+
+Draenei, Dwarf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '73899' WHERE  `quest_template`.`entry` =24527;
+
+
+Class Quest: 'Warlock' Corruption
+Goblin:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '172' WHERE  `quest_template`.`entry` =14012;
+
+Human:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '172' WHERE  `quest_template`.`entry` =26914;
+
+Orc, Blood Elf, Goblin:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '172' WHERE  `quest_template`.`entry` =25145;
+
+Undead:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '172' WHERE  `quest_template`.`entry` =24968;
+
+
+Class Quest: 'Warrior' Charge
+Orc:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '100' WHERE  `quest_template`.`entry` =25147;
+
+Orc, Goblin, Blood Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '100' WHERE  `quest_template`.`entry` =14013;
+
+Undead:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '100' WHERE  `quest_template`.`entry` =24969;
+
+Human, Gnome:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '100' WHERE  `quest_template`.`entry` =26913;
+
+Dwarf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '100' WHERE  `quest_template`.`entry` =24531;
+
+Night Elf:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '100' WHERE  `quest_template`.`entry` =26945;
+
+Draenei:
+
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '44171',
+`ReqSpellCast1` =  '100' WHERE  `quest_template`.`entry` =26958;
