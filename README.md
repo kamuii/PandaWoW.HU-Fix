@@ -1,6 +1,4 @@
 PandaWoW.HU-Fix
 ===============
-//   EMAIL   \\
+//       EMAIL:
  sharm@pofa.be
-\\           //
-===============
