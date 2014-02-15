@@ -1,6 +1,6 @@
 PandaWoW.HU-Fix
 ===============
-//       EMAIL:
+//       EMAIL:<br>
  sharm@pofa.be
 // Szerver:
 http://pandawow.hu/
