@@ -16,3 +16,42 @@ Phase megoldása:
 UPDATE  `world`.`creature` SET  `phaseMask` =  '1' WHERE  `creature`.`id` =7784;
 
 
+Quest: 'A Great Idea' ID: 24951
+Probléma:
+Mikor useolod az itemet a mobon, nem számolja be.
+
+Számláló fix:
+UPDATE  `world`.`quest_template` SET  `ReqCreatureOrGOId1` =  '38739',
+`ReqSpellCast1` =  '72659' WHERE  `quest_template`.`entry` =24951;
+UPDATE  `world`.`item_template` SET  `spellid_1` =  '72659' WHERE  `item_template`.`entry` =52031;
+
+
+Quest: 'Land's End' ID: 25061
+Probléma:
+Nincs ott a quest leadó mob.
+
+
+Quest: 'Blood to Thrive' ID: 25021
+Probléma:
+A trollok nem droppolják a quest itemet.
+
+Quest item drop fix:
+INSERT INTO  `world`.`creature_loot_template` (
+`entry` ,
+`item` ,
+`ChanceOrQuestChance` ,
+`lootmode` ,
+`groupid` ,
+`mincountOrRef` ,
+`maxcount`
+)
+VALUES (
+'5646',  '52064',  '100',  '1',  '0',  '1',  '1'
+), (
+'5645',  '52064',  '100',  '1',  '0',  '1',  '1'
+), (
+'5647',  '52064',  '100',  '1',  '0',  '1',  '1'
+);
+
+
+Quest:
